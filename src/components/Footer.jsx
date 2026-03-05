@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-black mt-16">
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
         <div className="lg:col-span-1 max-w-sm">
-          <h2 className="text-2xl font-bold text-white">Customer Support Zone</h2>
+          <h2 className="text-1.5xl font-bold text-white">CS — Ticket System</h2>
           <p className="mt-4 text-sm text-gray-400">
           A modern customer ticket management system built with React.
           It allows teams to create, track, and manage customer support tickets easily.
