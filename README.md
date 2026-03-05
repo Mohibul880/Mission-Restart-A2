@@ -1,16 +1,19 @@
-# React + Vite
+1) What is JSX, and why is it used?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ans: JSX is a syntax that allows you to write HTML-like UI in JavaScript in React. It is used because it improves the structure/readability of components and makes it easier to build UI.
 
-Currently, two official plugins are available:
+2) What is the difference between State and Props?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ans: State is the component's own internal data, which can change over time. And Props are data sent from the parent component to the child component, which the child does not change (receive).
 
-## React Compiler
+3) What is the useState hook, and how does it work?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Ans: useState is a React hook that is used to store state in functional components. It returns an array—one with the current state value, and another with a function that can be used to update the state.
 
-## Expanding the ESLint configuration
+4) How can you share state between components in React?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ans: In React, to share state between multiple components, the state is usually kept in a common parent component, then passed to the child components as needed with props—this is called lifting state up.
+
+5) How is event handling done in React?
+
+Ans: In React, event handling is done using event props in JSX, such as onClick, onChange, etc. When these events are triggered, a specific function is called and the action is performed accordingly.
