@@ -2,7 +2,7 @@
 
 Ans: JSX is a syntax that allows you to write HTML-like UI in JavaScript in React. It is used because it improves the structure/readability of components and makes it easier to build UI.
 
-2) What is the difference between State and Props?
+2) What is the difference between State and Props?npm run devz
 
 Ans: State is the component's own internal data, which can change over time. And Props are data sent from the parent component to the child component, which the child does not change (receive).
 
