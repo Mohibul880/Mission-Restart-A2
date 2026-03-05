@@ -4,8 +4,8 @@ const Navbar = () => {
 
       
       <div className="flex-1">
-        <h1 className="text-xl md:text-2xl font-bold text-primary cursor-pointer">
-          Customer Support Zone
+        <h1 className="text-xl md:text-2xl font-bold text-black cursor-pointer  ">
+          CS — Ticket System
         </h1>
       </div>
 
@@ -17,10 +17,19 @@ const Navbar = () => {
             Home
           </li>
           <li className="cursor-pointer hover:text-primary transition">
-            Tickets
+            FAQ
           </li>
           <li className="cursor-pointer hover:text-primary transition">
-            About
+            Changelog
+          </li>
+          <li className="cursor-pointer hover:text-primary transition">
+           Blog
+          </li>
+          <li className="cursor-pointer hover:text-primary transition">
+            Download
+          </li>
+          <li className="cursor-pointer hover:text-primary transition">
+            Contact
           </li>
         </ul>
 
